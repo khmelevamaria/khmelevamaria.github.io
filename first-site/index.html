@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Maria Resume</title>
+        <meta name="keywords" content="html, cv, css, resume">
+        <meta name="description" content="Это сайт - резюме Хмелевой Марии">
+        <link rel="stylesheet" href="style_index.css">
+    </head>
+    <body>
+
+        <div class="container">
+
+            <div class="header">
+                <div class="image">
+                    <img src="avatar.jpg" alt="Мария Хмелева" id="img">
+                </div>
+
+                <div class="name">
+                    <h1 class="h">Мария Хмелева</h1>
+
+                    <div class="info">
+                        <p>Я студентка 2 курса магистратуры <strong>физического факультета МГУ</strong>.</p>
+
+                        <p>Я люблю <em>рисовать</em>, увлекаюсь <em>дизайном</em>, <em>учу детей</em> физике и математике, активно занимаюсь <em>наукой</em> и хочу стать <strong><em>frontend-разработчиком</em></strong>.</p>
+                    </div>
+                </div>
+            </div>
+
+                <h2 class="h">Опыт работы</h2>
+
+            <div class="card jobs">
+                <table class="table" width="600">
+                    <thead>
+                        <tr>
+                            <th>Название</th>
+                            <th>Должность</th>
+                            <th>Год</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>НИИЯФ МГУ</td>
+                            <td>Участник гранта<br>(программист)</td>
+                            <td>2021</td>
+                        </tr>
+                        <tr>
+                            <td>Фриланс</td>
+                            <td>Репетитор <br>по математике и физике</td>
+                            <td>2020 - сейчас</td>
+                        </tr>
+                        <tr>
+                            <td>Фриланс</td>
+                            <td>Дизайнер</td>
+                            <td>2021 - сейчас</td>
+                        </tr>
+                        <tr>
+                            <td>Физический факультет МГУ</td>
+                            <td>Участник гранта<br> (лаборант)</td>
+                            <td>2023 - сейчас</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h2 class="h">Мои хобби</h2>
+
+            <div class="card">
+                <ol class="list">
+                    <li>Рисование</li>
+                    <li>Дизайн</li>
+                    <li>Музыка</li>
+                    <li>Сноуборд</li>
+                    <li>Программирование</li>
+                </ol>
+            </div>
+
+            <h2 class="h">Список социальных сетей</h2>
+
+            <div class="card media">
+                <p>
+                    <a href="https://vk.com/m_khmeleva" target="_blank">VK</a>
+                    |
+                    <a href="https://t.me/mari_xmel" target="_blank">Telegram</a>
+                    |
+                    <a href="https://vk.com/away.php?to=https%3A%2F%2Finstagram.com%2Fmari.xmel%3Figshid%3DNTc4MTIwNjQ2YQ%3D%3D&cc_key=">Instagram</a>
+                    |
+                    <a href="http://mari.xmel.art.tilda.ws/" target="_blank">Портфолио</a>
+                </p>
+            </div>
+
+            <h2 class="h">Связаться со мной</h2>
+            
+            <form action="/" class="card form">
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="text">Ваше имя:</label>
+                        <input type="text" id="text" placeholder="Введите имя">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Ваш email:</label>
+                        <input type="email" id="email" placeholder="Введите email">
+                    </div>
+                </div>
+            
+
+                <div class="form-group">
+                    <label for="message">Ваше сообщение:</label>
+                    <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+                </div>
+
+                <button class="btn" type="submit">Отправить!</button>
+            </form>
+        </div>
+
+    </body>
+</html>
